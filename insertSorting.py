@@ -13,16 +13,17 @@ def insertionSort(num_list):
 
 
 n = 10000
-random_interger = random.sample(range(1,n+1),n)
+random_integer = random.sample(range(1,n+1),n)
+
 
 # num_list = [20,34,17,19,4,26,49,9,30]
 # insertionSort(num_list)
 # print(num_list)
 
 time_starts = time.time()
-insertionSort(random_interger)
+insertionSort(random_integer)
 end_time = time.time()
-print(random_interger)
+print (random_integer)
 
 print("time start =",time_starts)
 print("time end =",end_time)

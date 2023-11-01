@@ -13,16 +13,16 @@ def selectionSort(num_list):
         num_list[maxpos] = temp
 
 n = 10000
-random_interger = random.sample(range(1,n+1),n)
+random_integer = random.sample(range(1,n+1),n)
 
 num_list = [7, 1, 6, 8, 2, 33, 11]
 selectionSort(num_list)
 print(num_list)
 
 time_starts = time.time()
-selectionSort(random_interger)
+selectionSort(random_integer)
 end_time = time.time()
-print (random_interger)
+print (random_integer)
 
 print("time start =", time_starts)
 print("time end =", end_time)
